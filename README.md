@@ -1,27 +1,50 @@
-> _Fork_ deze leertaak en ga aan de slag. Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
-
 # 🚀 CRUD FORM FDND
-<!-- Geef je project een titel en schrijf in één zin wat het is -->
+
+![Mockup](https://github.com/JustinLung/connect-your-tribe-fdnd-crud-form/blob/main/docs/mockup-crud-form.png?raw=true)
 
 ## 🅿 Inhoudsopgave
 
-  * [Beschrijving](#beschrijving)
-  * [Kenmerken](#kenmerken)
-  * [Installatie](#installatie)
-  * [Gebruik](#gebruik)
-  * [Bronnen](#bronnen)
-  * [Licentie](#licentie)
+- [Beschrijving](#beschrijving)
+- [Kenmerken](#kenmerken)
+- [Installatie](#installatie)
+- [Gebruik](#gebruik)
+- [Bronnen](#bronnen)
+- [Licentie](#licentie)
 
 ## ⏳ Beschrijving
+
 Een CRUD (Create, Read, Update, Delete) form, waarbij je members van de TribeAPI kan aanpassen en een nieuwe member kan toevoegen met behulp van HTML, CSS & JavaScript.
+
 [🌐 Live](http://justincrud.student.fdnd.nl/)
 
 ## 💻 Kenmerken
-<!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
+
+- 💀 HTML
+- 👘 CSS
+- 👨‍💻 JavaScript
+- 🗿 Tribe Api
 
 ## 🔋 Installatie & Gebruik
 
+Installatie via HTTPS
+
+```
+https://github.com/JustinLung/connect-your-tribe-fdnd-crud-form.git
+cd connect-your-tribe-fdnd-crud-form
+```
+
+Installatie via SSH
+
+```
+git@github.com:JustinLung/connect-your-tribe-fdnd-crud-form.git
+cd connect-your-tribe-fdnd-crud-form
+```
+
 ## 🧙 Bronnen
+
+- [🦸‍♂️ MDN Web Docs](https://developer.mozilla.org/en-US/)
+- [🎨 Coolors](https://coolors.co/)
+- [🔠 Google Fonts](https://fonts.google.com/)
 
 ## 🔖 Licentie
 
