@@ -5,80 +5,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="scripts/main.js" type="module"></script>
     <link rel="stylesheet" href="styles/style.css">
     <title>FDND - CRUD Form</title>
 </head>
 
 <body>
-    <h1>🚀 FDND - CRUD FORM</h1>
-    <form>
-        <fieldset>
-            <legend>Edit or Add Tribe Member</legend>
-
-            <select name="postOrPatch" id="postOrPatch">
-                <option value="add">Add member</option>
-                <option value="edit">Edit Member</option>
-                <!-- <option value="delete">Delete member</option> -->
-            </select>
-
-            <p>
-                <label for="memberid">MemberId</label>
-                <input type="number" id="memberid" placeholder="memberid">
-            </p>
-
-            <p>
-                <label for="squadid">SquadId</label>
-                <input type="number" id="squadid" placeholder="squadid">
-            </p>
-
-            <p>
-                <label for="type">Type</label>
-                <input type="text" id="type" placeholder="Student or Teacher">
-            </p>
-
-            <p>
-                <label for="nickname">Nickname</label>
-                <input type="text" id="nickname" placeholder="Johnaton Doemer" value="random">
-            </p>
-
-            <p>
-                <label for="name">Name</label>
-                <input type="text" id="name" placeholder="John">
-            </p>
-
-            <p>
-                <label for="prefix">Prefix</label>
-                <input type="text" id="prefix" placeholder="The">
-            </p>
-
-            <p>
-                <label for="surname">Surname</label>
-                <input type="text" id="surname" placeholder="Doe">
-            </p>
-
-            <p>
-                <label for="avatar">Avatar</label>
-                <input type="text" id="Avatar" placeholder="avatar">
-            </p>
-
-            <p>
-                <label for="githubHandle">Githubhandle</label>
-                <input type="text" id="githubHandle" placeholder="JohnDoe">
-            </p>
-
-            <p>
-                <label for="bio">Bio</label>
-                <input type="text" id="bio" placeholder="bio">
-            </p>
-
-            <p>
-                <label for="url">Url</label>
-                <input type="text" id="url" placeholder="url">
-            </p>
-        </fieldset>
-        <button type="submit" id="submitButton">Submit</button>
-    </form>
-    <script src="scripts/main.js"></script>
+    <header>
+        <h1>🚀 FDND - CRUD FORM</h1>
+        <a href="add.html">Add Member</a>
+    </header>
+    <table class="table">
+        <tr>
+            <th>MemberId</th>
+            <th>Avatar</th>
+            <th>NameId</th>
+            <th>Type</th>
+            <th>Action</th>
+        </tr>
+    </table>
 </body>
 
 </html>

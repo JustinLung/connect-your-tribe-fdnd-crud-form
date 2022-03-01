@@ -25,13 +25,54 @@ body {
   height: 100vh;
 }
 
-h1 {
+header {
+  background-color: var(--olive-green);
+  padding: 1em 2em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header > h1 {
+  font-size: 1.5rem;
+}
+
+header > a {
+  text-decoration: none;
+  color: var(--ghost-white);
+}
+
+table {
+  width: 90%;
+  margin: auto;
+  margin-top: 2em;
+}
+
+td,
+th {
+  padding: 1.5em 0;
   text-align: center;
-  padding: 2rem 0;
+}
+
+td .settings-icon {
+  max-width: 2em;
+  transition: 0.3s ease;
+}
+
+td .settings-icon:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.avatar {
+  width: 3.5em;
+  border-radius: 50%;
+  height: 3.5em;
+  object-fit: cover;
 }
 
 legend {
-  font-size: 1.3rem;
+  font-size: 1rem;
   text-align: center;
   background-color: var(--ghost-white);
   color: var(--black-chocolate);
@@ -43,13 +84,14 @@ fieldset {
   width: 50%;
 }
 
-@media(max-width: 40em) {
-    fieldset {
-        width: 90%;
-    }
+@media (max-width: 40em) {
+  fieldset {
+    width: 90%;
+  }
 }
 
 form {
+  margin-top: 2em;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -63,15 +105,13 @@ select {
   outline: 0;
   border: 0;
   box-shadow: none;
-  padding: 0.5em 2em;
-  display: block;
-  margin: 2em auto;
+  padding: 1em 4.5em;
 }
 
 p {
   font-size: 1.2em;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   flex-grow: 1;
   margin: 1em;
@@ -111,4 +151,9 @@ button:hover {
   border: 1px solid var(--ghost-white);
   background-color: transparent;
   color: var(--ghost-white);
+}
+
+footer {
+  background-color: var(--olive-green);
+  padding: 1em;
 }
