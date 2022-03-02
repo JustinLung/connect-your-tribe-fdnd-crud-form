@@ -33,7 +33,8 @@ header {
   align-items: center;
 }
 
-header > h1 {
+.logo {
+  font-weight: bold;
   font-size: 1.5rem;
 }
 
@@ -106,6 +107,12 @@ select {
   border: 0;
   box-shadow: none;
   padding: 1em 4.5em;
+}
+
+.submit-msg {
+  padding: 0;
+  display: none;
+  color: var(--olive-green);
 }
 
 p {

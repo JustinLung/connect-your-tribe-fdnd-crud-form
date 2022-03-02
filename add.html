@@ -13,22 +13,12 @@
 <body>
     <header>
         <a href="index.html" class="logo">🚀 FDND - CRUD FORM</a>
-        <a href="add.html">Add Member</a>
+        <a href="#">Add Member</a>
     </header>
     <form>
-        <p class="submit-msg">Info has been updated!</p>
+        <p class="submit-msg">Member has been added!</p>
         <fieldset>
-            <legend>Edit Tribe Member</legend>
-
-            <p style="display: none;">
-                <label for="memberid">MemberId</label>
-                <input type="number" id="memberid" placeholder="memberid">
-            </p>
-
-            <p style="display: none;">
-                <label for="squadid">SquadId</label>
-                <input type="number" id="squadid" placeholder="squadid">
-            </p>
+            <legend>Add Tribe Member</legend>
 
             <p>
                 <label for="type">Type </label>
@@ -36,6 +26,11 @@
                     <option value="student">Student</option>
                     <option value="teacher">Teacher</option>
                 </select>
+            </p>
+
+            <p>
+                <label for="squadid">SquadId</label>
+                <input type="number" id="squadid" placeholder="squadid">
             </p>
 
             <p>
@@ -79,7 +74,6 @@
             </p>
         </fieldset>
         <button type="submit" id="submitButton">Submit</button>
-    </form>
 </body>
 
 </html>

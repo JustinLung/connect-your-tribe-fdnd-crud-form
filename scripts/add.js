@@ -1,5 +1,6 @@
-import { updateData } from './api.js'
+import { addData } from './api.js'
 
+const squadid = document.getElementById("squadid");
 const type = document.getElementById("type") 
 const nickname = document.getElementById("nickname") 
 const name = document.getElementById("name") 
@@ -17,8 +18,7 @@ submit.addEventListener("click", getInputData);
 function getInputData(e) {
     e.preventDefault();
     const inputValues = {
-        memberId: parseInt(new URLSearchParams(window.location.search).get("memberId")),
-        squadId: 1,
+        squadId: squadid.value,
         type: type.value,
         nickname: nickname.value,
         name: name.value,
@@ -29,7 +29,6 @@ function getInputData(e) {
         bio: bio.value,
         url: url.value,
     }
-    updateData(inputValues);
+    addData(inputValues);
     submitMsg.style.display = "block";
 }
-
